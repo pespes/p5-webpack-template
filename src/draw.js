@@ -1,9 +1,9 @@
 
 const sketch = (p) => {
-  let gray = 100
+  let gray = 200
 
   p.setup = function () {
-    p.createCanvas(1200, 800)
+    p.createCanvas(800, 800)
   }
 
   p.draw = function () {
