@@ -12,7 +12,7 @@ module.exports = {
               exclude: /node_modules/,
               loader: "babel-loader",
               // Options to configure babel with
-              query: {
+              options: {
                 presets: ['es2015']
               }
             }
